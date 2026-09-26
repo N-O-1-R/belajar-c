@@ -38,10 +38,12 @@ int main(){
             valid_operator = 0;
     }
 
-    if (valid_operator) {
-        printf("Hasil perhitungan: %.2f\n", hasil);
-    } else {
-        printf("Operator tidak valid.\n");
+    switch (valid_operator) {
+        case 1:
+            printf("Hasil perhitungan: %.2f\n", hasil);
+            break;
+        default:
+            printf("Operator tidak valid.\n");
     }
 
 
