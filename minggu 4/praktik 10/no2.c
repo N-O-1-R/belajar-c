@@ -3,14 +3,6 @@
 
 int main (){
 
-    // Gunakan loop while untuk membuat program yang dapat mencari total angka yang
-// dimasukkan dengan tampilan sebagai berikut :
-// Masukkan bilangan ke-1 : 5
-// Mau memasukkan data lagi [y/t] ? y
-// Masukkan bilangan ke-2 : 3
-// Mau memasukkan data lagi [y/t] ? t
-// Total bilangan = 8
-
     int total = 0;
     int bilangan;
     char lagi = 'y';
